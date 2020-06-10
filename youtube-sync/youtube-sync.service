@@ -1,0 +1,8 @@
+[Unit]
+Description=youtube-sync systemd service.
+[Service]
+Type=simple
+ExecStart=/bin/bash /var/app/youtube-sync.sh
+[Install]
+WantedBy=multi-user.target
+
